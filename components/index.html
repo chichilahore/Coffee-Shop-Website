@@ -15,44 +15,70 @@
 
 <body>
     <header>
-        <div></div>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Variedades</a></li>
-                <li><a href="#">Tienda</a></li>
-                <li><a href="#">Sobre Nosotros</a></li>
-            </ul>
+        <h1>Cafés del Mon</h1>
+        <picture>
+            <source media="(min-width: 1200px)" srcset="/assets/img/index_2000px.avif" type="image/avif">
+            <source media="(min-width: 800px)" srcset="/assets/img/portada_tablet_900px.webp" type="image/webp">
+            <source media="(min-width: 500px)" srcset="/assets/img/tassa_sobre_grans_de_cafe_450x675.webp"
+                type="image/webp">
+            <img class="cover desktop" src="/assets/img/index_2000px.avif" alt="Big cover Cafés del Mon">
+        </picture>
     </header>
+    <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="#">Varietats</a></li>
+                <li><a href="#">Botiga</a></li>
+                <li><a href="#">Sobre nosaltres</a></li>
+            </ul>
+        </nav>
     <main>
-        <section class="descriptor 1">
-            <h1>Un café delicioso para todas las ocasiones</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid animi ad voluptatem, adipisci
-                rerum, asperiores nesciunt ducimus alias, quasi labore laborum sit. In, maxime eaque necessitatibus
-                deserunt incidunt odit officia doloribus possimus aspernatur a quibusdam quos alias dicta quae facere!
-            </p>
+        <section class="box box-1">
+             <img class="image 1" src="../assets/img/taza_cafe_negro_desde_arriba_600x800.avif"
+                alt="Café negro desde arriba">
+            <div class="text-content content-1">
+                <h2>Un café delicioso para todas las ocasiones</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid animi ad voluptatem, adipisci
+                    rerum, asperiores nesciunt ducimus alias, quasi labore laborum sit. In, maxime eaque necessitatibus
+                    deserunt incidunt odit officia doloribus possimus aspernatur a quibusdam quos alias dicta quae
+                    facere!
+                </p>
+            </div>
         </section>
-        <section class="descriptor 2">
-            <h2>Café natural y sostenible</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid animi ad voluptatem, adipisci
-                rerum, asperiores nesciunt ducimus alias, quasi labore laborum sit. In, maxime eaque necessitatibus
-                deserunt incidunt odit officia doloribus.
-            </p>
+        <section class="box box-2">
+            <div class="text-content content-2">
+                <h2>Café natural y sostenible</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid animi ad voluptatem, adipisci
+                    rerum, asperiores nesciunt ducimus alias, quasi labore laborum sit. In, maxime eaque necessitatibus
+                    deserunt incidunt odit officia doloribus.
+                </p>
+            </div>
+            <img class="image 2" src="../assets/img/natural_600x750.avif" alt="Café natural">
         </section>
-        <section class="descriptor 3">
-            <h2>Prepara un café delicioso en casa</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid animi ad voluptatem, adipisci
-                rerum, asperiores nesciunt ducimus alias, quasi labore laborum sit. In, maxime eaque necessitatibus
-                deserunt incidunt odit officia doloribus possimus aspernatur a quibusdam quos alias dicta quae facere!
-            </p>
+        <section class="box box-3">
+            <video>
+                <source class="video 3" src="../assets/video/Basic_heart_latte_art.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+            <div class="text-content content-3">
+                <h2>Prepara un café delicioso en casa</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid animi ad voluptatem, adipisci
+                    rerum, asperiores nesciunt ducimus alias, quasi labore laborum sit. In, maxime eaque necessitatibus
+                    deserunt incidunt odit officia doloribus possimus aspernatur a quibusdam quos alias dicta quae
+                    facere!
+                </p>
+            </div>
         </section>
-        <section class="descriptor 4">
-            <h2>El café nunca debe faltar en un buen encuentro</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid animi ad voluptatem, adipisci
-                rerum, asperiores.
-            </p>
+        <section class="box box-4">
+            <div class="text-content content-4">
+                <h2>El café nunca debe faltar en un buen encuentro</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid animi ad voluptatem, adipisci
+                    rerum, asperiores.
+                </p>
+            </div>
+            <img src="../assets/img/grupo-amigos-bebiendo-cafe_1000x667.avif" alt="Amistad y café">
         </section>
-        <section class="descriptor 5">
+        <section class="box box-5">
             <h2>Nuestros clientes opinan</h2>
             <div class="testimonials">
                 <blockquote>
@@ -76,40 +102,61 @@
     <div class="footer-clean">
         <footer>
             <div class="container">
-                <div class="row container">
-                    <div class="column item">
-                        <h3>Services</h3>
+                <div class="row-container">
+                    <div class="column item-1">
+                        <h3>Contacto</h3>
                         <ul>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li>
+                            <li><a href="mailto:info@cafesdelmon.com">Email</a></li>
+                            <div class="row item social">
+                                <a href="#"><i src="/assets/logos/facebook_logo_icon_259372.png"
+                                        class="icon social-facebook"></i></a>
+                                <a href="#"><i src="/assets/logos/instagram_logo_icon_259370.png"
+                                        class="icon social-instagram"></i></a>
+                                <a href="#"><i src="/assets/logos/youtube_logo_icon_259362.png"
+                                        class="icon social-youtube"></i></a>
+                                <a href="#"><i src="/assets/logos/x_twitter_logo_icon_259367.png"
+                                        class="icon social-twitter"></i></a>
+                            </div>
                         </ul>
                     </div>
-                    <div class="column item">
-                        <h3>About</h3>
+                    <div class="column item-2">
+                        <h3>Enllaços utils</h3>
                         <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Legacy</a></li>
+                            <li><a href="#">Noticies</a></li>
+                            <li><a href="#">Els nostres productes</a></li>
+                            <li><a href="#">Plans per a empresas</a></li>
+                            <li><a href="#">Afiliats</a></li>
                         </ul>
                     </div>
-                    <div class="column item">
-                        <h3>Careers</h3>
+                    <div class="column item-3">
+                        <h3>Comprar</h3>
                         <ul>
-                            <li><a href="#">Job openings</a></li>
-                            <li><a href="#">Employee success</a></li>
-                            <li><a href="#">Benefits</a></li>
+                            <li><a href="#">Particulars</a></li>
+                            <li><a href="#">Empreses</a></li>
+                            <li><a href="#">Suscripcions</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a
-                            href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i
-                                class="icon ion-social-snapchat"></i></a><a href="#"><i
-                                class="icon ion-social-instagram"></i></a>
-                        <p class="copyright">Company Name © 2018</p>
+                    <div class="column item-4">
+                        <h3>Coneixer el café</h3>
+                        <ul>
+                            <li><a href="#">Varietats de café</a></li>
+                            <li><a href="#">Com preparar el café</a></li>
+                            <li><a href="#">El nostre procés de selecció</a></li>
+                        </ul>
+                    </div>
+                    <div class="column item-5">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">Preguntas frequents</a></li>
+                            <li><a href="#">Devolucions</a></li>
+                            <li><a href="#">Servei técnic</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
+            <p>&copy; 2025 Cafés del Mon. Tots els drets reservats.</p>
         </footer>
     </div>
 </body>
+
 </html>
