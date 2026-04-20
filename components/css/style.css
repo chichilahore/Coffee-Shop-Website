@@ -317,6 +317,7 @@ footer .container .row-container .column ul {
 
 footer .container .row-container ul li {
     list-style: none;
+    display: grid;
     
 }
 
@@ -324,6 +325,19 @@ footer .container .row-container ul li a {
     color: var(--secondary-color);
     text-decoration: none;
     font-size: 1em;
+}
+
+footer .container .row-container ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .container .row-container .row-item-social a {
+    margin-right: 1rem;
+}
+
+footer .container .row-container .row-item-social a img {
+    width: 24px;
+    height: 24px;
 }
 
 .reserved-rights {
