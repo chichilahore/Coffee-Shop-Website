@@ -83,7 +83,7 @@ nav ul {
     justify-content: space-between;
     width: var(--breakpoint-main);
     padding: .5rem 0;
- 
+
 }
 
 nav ul li {
@@ -117,7 +117,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
+
     /* @media (max-width: 450px) {
         font-size: 20vw;
         right: 20vw;            
@@ -128,12 +128,13 @@ main {
 }
 
 .section-wrapper {
-    width: 100%;    
+    width: 100%;
 }
 
 
 
-.wrapper-2, .wrapper-4 {
+.wrapper-2,
+.wrapper-4 {
     background-color: var(--primary-color);
 }
 
@@ -143,7 +144,7 @@ main {
     width: var(--breakpoint-main);
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;    
+    grid-template-columns: 1fr 1fr;
     justify-content: space-around;
 
 }
@@ -171,27 +172,30 @@ main {
     flex-direction: column;
     justify-content: center;
 }
-.content-end-1, .content-end-2 {
+
+.content-end-1,
+.content-end-2 {
     align-items: flex-end;
     margin-inline-start: 2.8em;
 }
 
-.content-start-1, .content-start-2 {
+.content-start-1,
+.content-start-2 {
     align-items: flex-start;
     margin-inline-end: 2.8em;
-} 
+}
 
 .title-text-content-start {
     color: var(--secondary-color);
     text-align: left;
-    
+
 }
 
 .title-text-content-end {
     text-align: right;
 }
 
-h2{
+h2 {
     font-size: 2.4vw;
     font-weight: 1000;
 
@@ -213,7 +217,7 @@ video {
     height: auto;
 }
 
-
+ 
 .box-5 {
     display: flex;
     flex-direction: column;
@@ -233,7 +237,33 @@ cite {
     color: red;
     font-size: 1.2em;
 
+} 
+
+/* .section-opinions {
+
+    h2 {
+        font-size: 3.5em;
+        text-align: center;
+    }
 }
+
+.section-opinions>div {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    cite {
+        font-style: italic;
+        color: red;
+        font-size: 1.1em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+} */
+
+
 
 footer {
     background-color: var(--primary-color);
@@ -249,7 +279,7 @@ footer {
 
 
 footer .container {
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -265,13 +295,12 @@ footer .container .row-container {
     align-items: flex-start;
     justify-content: space-between;
     gap: 2rem;
-    border: 10px solid blue;
-        
+
 
 }
 
 footer .container .row-container .column {
-    border: 10px solid red;
+    text-align: left;
 }
 
 
@@ -281,13 +310,20 @@ footer .container .row-container .social-media {
 
 footer .container .row-container .column ul {
     list-style: none;
-        text-align: flex-start;
+    text-align: flex-start;
 
 
 }
 
 footer .container .row-container ul li {
     list-style: none;
+    
+}
+
+footer .container .row-container ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 1em;
 }
 
 .reserved-rights {
